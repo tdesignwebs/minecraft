@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Price Table</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+            background-color: #000319;
+        }
+
+        h2 {
+            text-align: center;
+            color: white;
+            font-family: sans-serif;
+            font-size: 60px;
+            font-weight: bolder;
+            margin: 0;
+            padding: 0;
+
+        }
+
+        .title {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+            height: 200px;
+        }
+
+        .container {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 50px;
+            flex-direction: column;
+            height: fit-content;
+            width: 100%;
+        }
+
+        .img-product {
+            width: 50px;
+            height: 50px;
+            border-radius: 10px;
+            display: flex;
+            align-items: center;
+        }
+
+        .product-box {
+            display: flex;
+            align-items: center;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: 20px;
+            justify-content: space-between;
+            width: 90%;
+            height: 90px;
+        }
+
+        h1 {
+            color: white;
+            font-family: sans-serif;
+            font-weight: bold;
+            letter-spacing: 1px;
+            font-size: 20px;
+            text-align: center;
+        }
+
+        .img {
+            width: 200px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .name {
+            width: 300px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .price-sell {
+            width: 200px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="title">
+        <h2>Buy/Sell Price Table</h2>
+    </div>
+
+    <div class="container">
+        <div class="product-box" style="border: none;">
+            <div class="img">
+                <h1>Images</h1>
+            </div>
+            <div class="name">
+                <h1>Name</h1>
+            </div>
+            <div class="price-sell">
+                <h1 class="price">Sell price</h1>
+            </div>
+        </div>
+        <div class="product-box">
+            <div class="img"><img class="img-product" src="./img/recource/coal ingot.png"></div>
+            <div class="name">
+                <h1>Coal Ingot</h1>
+            </div>
+            <div class="price-sell">
+                <h1 class="price">$8</h1>
+            </div>
+        </div>
+        <div class="product-box">
+            <div class="img"><img class="img-product" src="./img/recource/iron ingot.png"></div>
+            <div class="name">
+                <h1>Iron Ingot</h1>
+            </div>
+            <div class="price-sell">
+                <h1 class="price">$10</h1>
+            </div>
+        </div>
+        <div class="product-box">
+            <div class="img"><img class="img-product" src="./img/recource/brick ingot.png"></div>
+            <div class="name">
+                <h1>Brick Ingot</h1>
+            </div>
+            <div class="price-sell">
+                <h1 class="price">$5</h1>
+            </div>
+        </div>
+        <div class="product-box">
+            <div class="img"><img class="img-product" src="./img/recource/copper ingot.png"></div>
+            <div class="name">
+                <h1>Copper Ingot</h1>
+            </div>
+            <div class="price-sell">
+                <h1 class="price">$14</h1>
+            </div>
+        </div>
+        <div class="product-box">
+            <div class="img"><img class="img-product" src="./img/recource/golden ingot.png"></div>
+            <div class="name">
+                <h1>Gold Ingot</h1>
+            </div>
+            <div class="price-sell">
+                <h1 class="price">$10</h1>
+            </div>
+        </div>
+        <div class="product-box">
+            <div class="img"><img class="img-product" src="./img/recource/diamond ingot.png"></div>
+            <div class="name">
+                <h1>Diamond Ingot</h1>
+            </div>
+            <div class="price-sell">
+                <h1 class="price">$80</h1>
+            </div>
+        </div>
+        <div class="product-box">
+            <div class="img"><img class="img-product" src="./img/recource/emerald ingot.png"></div>
+            <div class="name">
+                <h1>Emerald Ingot</h1>
+            </div>
+            <div class="price-sell">
+                <h1 class="price">$30</h1>
+            </div>
+        </div>
+        <div class="product-box">
+            <div class="img"><img class="img-product" src="./img/recource/charcoal ingot.png"></div>
+            <div class="name">
+                <h1>Charcoal Ingot</h1>
+            </div>
+            <div class="price-sell">
+                <h1 class="price">$8</h1>
+            </div>
+        </div>
+        <div class="product-box">
+            <div class="img"><img class="img-product" src="./img/recource/glowstone ingot.png"></div>
+            <div class="name">
+                <h1>Glowstone Dust</h1>
+            </div>
+            <div class="price-sell">
+                <h1 class="price">$2</h1>
+            </div>
+        </div>
+        <div class="product-box">
+            <div class="img"><img class="img-product" src="./img/recource/netherite ingot.png"></div>
+            <div class="name">
+                <h1>Netherite Ingot</h1>
+            </div>
+            <div class="price-sell">
+                <h1 class="price">$400</h1>
+            </div>
+        </div>
+        <div class="product-box">
+            <div class="img"><img class="img-product" src="./img/recource/red stone ingot.png"></div>
+            <div class="name">
+                <h1>Redstone Dust</h1>
+            </div>
+            <div class="price-sell">
+                <h1 class="price">$2</h1>
+            </div>
+        </div>
+        <div class="product-box">
+            <div class="img"><img class="img-product" src="./img/recource/lapis lazuli ingot.png"></div>
+            <div class="name">
+                <h1>Lapis Lazuli Ingot</h1>
+            </div>
+            <div class="price-sell">
+                <h1 class="price">$5</h1>
+            </div>
+        </div>
+
+        <div class="product-box">
+            <div class="img"><img class="img-product" src="./img/recource/nether quartz ingot.png"></div>
+            <div class="name">
+                <h1>Nether Quartz Ingot</h1>
+            </div>
+            <div class="price-sell">
+                <h1 class="price">$5</h1>
+            </div>
+        </div>
+        <div class="product-box">
+            <div class="img"><img class="img-product" src="./img/recource/ender pearl.png"></div>
+            <div class="name">
+                <h1>Ender Pearl</h1>
+            </div>
+            <div class="price-sell">
+                <h1 class="price">$20</h1>
+            </div>
+        </div>
+        <div class="product-box">
+            <div class="img"><img class="img-product" src="./img/recource/flint.png"></div>
+            <div class="name">
+                <h1>Flint</h1>
+            </div>
+            <div class="price-sell">
+                <h1 class="price">$4</h1>
+            </div>
+        </div>
+
+        <div class="product-box">
+            <div class="img"><img class="img-product" src="./img/recource/golden nuggets.png"></div>
+            <div class="name">
+                <h1>Golden Nuggets</h1>
+            </div>
+            <div class="price-sell">
+                <h1 class="price">$0.5</h1>
+            </div>
+        </div>
+
+        <div class="product-box">
+            <div class="img"><img class="img-product" src="./img/recource/Iron nuggets.png"></div>
+            <div class="name">
+                <h1>Iron Nuggets</h1>
+            </div>
+            <div class="price-sell">
+                <h1 class="price">$0.5</h1>
+            </div>
+        </div>
+        <div class="product-box">
+            <div class="img"><img class="img-product" src="./img/recource/gunpowder.png"></div>
+            <div class="name">
+                <h1>Gunpowder</h1>
+            </div>
+            <div class="price-sell">
+                <h1 class="price">$3 need look</h1>
+            </div>
+        </div>
+        <div class="product-box">
+            <div class="img"><img class="img-product" src="./img/recource/netherite scrape.png"></div>
+            <div class="name">
+                <h1>Netherite Scrap</h1>
+            </div>
+            <div class="price-sell">
+                <h1 class="price">$200</h1>
+            </div>
+        </div>
+        <div class="product-box">
+            <div class="img"><img class="img-product" src="./img/recource/raw coal block.png"></div>
+            <div class="name">
+                <h1>Raw Coal Block</h1>
+            </div>
+            <div class="price-sell">
+                <h1 class="price">$10</h1>
+            </div>
+        </div>
+        <div class="product-box">
+            <div class="img"><img class="img-product" src="./img/recource/raw copper block.png"></div>
+            <div class="name">
+                <h1>Raw Copper Block</h1>
+            </div>
+            <div class="price-sell">
+                <h1 class="price">$14</h1>
+            </div>
+        </div>
+        <div class="product-box">
+            <div class="img"><img class="img-product" src="./img/recource/raw copper.png"></div>
+            <div class="name">
+                <h1>Raw Copper</h1>
+            </div>
+            <div class="price-sell">
+                <h1 class="price">$10</h1>
+            </div>
+        </div>
+        <div class="product-box">
+            <div class="img"><img class="img-product" src="./img/recource/raw diamond block.png"></div>
+            <div class="name">
+                <h1>Raw Diamond Block</h1>
+            </div>
+            <div class="price-sell">
+                <h1 class="price">$85</h1>
+            </div>
+        </div>
+        <div class="product-box">
+            <div class="img"><img class="img-product" src="./img/recource/raw emerald block.png"></div>
+            <div class="name">
+                <h1>Raw Emerald Block</h1>
+            </div>
+            <div class="price-sell">
+                <h1 class="price">$35</h1>
+            </div>
+        </div>
+        <div class="product-box">
+            <div class="img"><img class="img-product" src="./img/recource/raw gold block.png"></div>
+            <div class="name">
+                <h1>Raw Gold Block</h1>
+            </div>
+            <div class="price-sell">
+                <h1 class="price">$15</h1>
+            </div>
+        </div>
+        <div class="product-box">
+            <div class="img"><img class="img-product" src="./img/recource/raw gold.png"></div>
+            <div class="name">
+                <h1>Raw Gold</h1>
+            </div>
+            <div class="price-sell">
+                <h1 class="price">$12</h1>
+            </div>
+        </div>
+        <div class="product-box">
+            <div class="img"><img class="img-product" src="./img/recource/raw iron block.png"></div>
+            <div class="name">
+                <h1>Raw Iron Block</h1>
+            </div>
+            <div class="price-sell">
+                <h1 class="price">$10</h1>
+            </div>
+        </div>
+        <div class="product-box">
+            <div class="img"><img class="img-product" src="./img/recource/raw iron.png"></div>
+            <div class="name">
+                <h1>Raw Iron </h1>
+            </div>
+            <div class="price-sell">
+                <h1 class="price">$8</h1>
+            </div>
+        </div>
+        <div class="product-box">
+            <div class="img"><img class="img-product" src="./img/recource/raw lapis lazuli block.png"></div>
+            <div class="name">
+                <h1>Raw Lapis Lazuli Block </h1>
+            </div>
+            <div class="price-sell">
+                <h1 class="price">$4</h1>
+            </div>
+        </div>
+         <div class="product-box">
+            <div class="img"><img class="img-product" src="./img/recource/raw nether quartz block.png"></div>
+            <div class="name">
+                <h1>Raw Quartz Block </h1>
+            </div>
+            <div class="price-sell">
+                <h1 class="price">$5</h1>
+            </div>
+        </div>
+         <div class="product-box">
+            <div class="img"><img class="img-product" src="./img/recource/raw netherite block.png"></div>
+            <div class="name">
+                <h1>Raw Netherite Block </h1>
+            </div>
+            <div class="price-sell">
+                <h1 class="price">$300</h1>
+            </div>
+        </div>
+         <div class="product-box">
+            <div class="img"><img class="img-product" src="./img/recource/raw redstone block.png"></div>
+            <div class="name">
+                <h1>Raw Redstone Block </h1>
+            </div>
+            <div class="price-sell">
+                <h1 class="price">$12</h1>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
